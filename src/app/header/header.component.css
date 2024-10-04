@@ -1,0 +1,27 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: baseline;  
+  }
+  
+  h1 {
+    color: blueviolet;
+    margin-left: 5%;
+    font-size: 25px;
+    float: left;
+  }
+
+  .add-product{
+    margin-right: 5%;
+    font-size: 20px;
+    float: right; 
+    align-items: baseline;  
+    display: flex;
+  }
+
+  a{
+    padding :5px;
+    font-style: normal  blueviolet;
+    text-decoration: underline blueviolet;
+  }

@@ -1,0 +1,16 @@
+<nav class="nav">
+    <h1><a routerLink="/dashboard">HASHERS MARKETPLACE</a> </h1>
+    <div class="add-product" *ngIf="isAuthenticated(); else nouser">
+   <div ><a routerLink="/add-product">Add Product</a></div>
+   <div><a (click)="logout()">Logout</a></div>
+
+    </div>
+
+    <ng-template #nouser>
+        <div class="add-product">
+            <div ><a routerLink="/login">Login</a></div>
+            <div ><a routerLink="/register">Register</a></div>
+        </div>
+    </ng-template>
+    
+  </nav>

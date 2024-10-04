@@ -1,0 +1,38 @@
+
+.product-list{
+    justify-content: center;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    width: 100%;
+}
+table{
+    text-align: center;
+    color: rgb(7, 1, 12);
+    border-collapse: collapse;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+table td , table th{
+    border: 1px solid blueviolet;
+    padding: 10px;
+    min-width: 160pxs;
+}
+
+button{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 4px;
+    width: 40%;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.adjust-update-link
+{
+    margin-left: 10px;
+}
